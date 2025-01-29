@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InterfaceNetflix" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--  Primary brand color.  -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item>
+        <item name="colorOnPrimary">@color/branco</item>
+        <!--  Secondary brand color.  -->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/secundaria</item>
+        <item name="colorOnSecondary">@color/preto</item>
+    </style>
+</resources>
