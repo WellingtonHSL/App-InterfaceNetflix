@@ -1,6 +1,6 @@
 <resources>
     <!--  Base application theme.  -->
-    <style name="Theme.InterfaceNetflix" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.InterfaceNetflix" parent="Theme.Material3.DayNight.NoActionBar">
         <!--  Primary brand color.  -->
         <item name="colorPrimary">@color/primaria</item>
         <item name="colorPrimaryVariant">@color/primaria_variacao</item>
@@ -11,6 +11,7 @@
         <item name="colorOnSecondary">@color/preto</item>
         <!--  Status bar color -->
         <item name="android:statusBarColor">@color/primaria_variacao</item>
+        <item name="android:windowTranslucentStatus">false</item>
         <!--  customizando interface netflix  -->
         <item name="android:windowBackground">@color/fundo</item>
     </style>
